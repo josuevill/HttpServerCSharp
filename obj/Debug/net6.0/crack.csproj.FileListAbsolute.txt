@@ -1,0 +1,15 @@
+/home/link/Demos/crack/bin/Debug/net6.0/crack
+/home/link/Demos/crack/bin/Debug/net6.0/crack.deps.json
+/home/link/Demos/crack/bin/Debug/net6.0/crack.runtimeconfig.json
+/home/link/Demos/crack/bin/Debug/net6.0/crack.dll
+/home/link/Demos/crack/bin/Debug/net6.0/crack.pdb
+/home/link/Demos/crack/obj/Debug/net6.0/crack.csproj.AssemblyReference.cache
+/home/link/Demos/crack/obj/Debug/net6.0/crack.GeneratedMSBuildEditorConfig.editorconfig
+/home/link/Demos/crack/obj/Debug/net6.0/crack.AssemblyInfoInputs.cache
+/home/link/Demos/crack/obj/Debug/net6.0/crack.AssemblyInfo.cs
+/home/link/Demos/crack/obj/Debug/net6.0/crack.csproj.CoreCompileInputs.cache
+/home/link/Demos/crack/obj/Debug/net6.0/crack.dll
+/home/link/Demos/crack/obj/Debug/net6.0/refint/crack.dll
+/home/link/Demos/crack/obj/Debug/net6.0/crack.pdb
+/home/link/Demos/crack/obj/Debug/net6.0/crack.genruntimeconfig.cache
+/home/link/Demos/crack/obj/Debug/net6.0/ref/crack.dll
