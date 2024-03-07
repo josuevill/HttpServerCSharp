@@ -31,8 +31,6 @@ internal abstract class HttpMessage
                 Headers.Add(SplittedLine[0], SplittedLine[1]);
             }
         }
-
-        // ProcessHeaders(MessageLines.TakeWhile(x => x != $"{CRLF}{CRLF}"));
     }
 
     protected void ProcessHeaders(IEnumerable<string> Headers)

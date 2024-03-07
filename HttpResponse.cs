@@ -16,13 +16,6 @@ internal class HttpResponse : HttpMessage
         this.StartLine = $"{HttpVersion} {(int)StatusCode} {ReasonPhrase}";
         this.Headers = Headers ?? new Dictionary<string, string>();
         this.Body = Body;
-        // this.ReasonPhrase = StatusCode switch
-        // {
-        //     HttpStatusCode.Ok => "Ok",
-        //     HttpStatusCode.NotImplemented => "Not Implemented",
-        //     HttpStatusCode.NotFound => "Not Found",
-        //     _ => throw new NotImplementedException(),
-        // };
     }
 
     public override void ProcessStartLine(string StatusLine)
