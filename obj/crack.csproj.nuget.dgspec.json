@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/link/Demos/crack/crack.csproj": {}
+    "C:\\Users\\link\\Desktop\\HttpServerCSharp\\crack.csproj": {}
   },
   "projects": {
-    "/home/link/Demos/crack/crack.csproj": {
+    "C:\\Users\\link\\Desktop\\HttpServerCSharp\\crack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/link/Demos/crack/crack.csproj",
+        "projectUniqueName": "C:\\Users\\link\\Desktop\\HttpServerCSharp\\crack.csproj",
         "projectName": "crack",
-        "projectPath": "/home/link/Demos/crack/crack.csproj",
-        "packagesPath": "/home/link/.nuget/packages/",
-        "outputPath": "/home/link/Demos/crack/obj/",
+        "projectPath": "C:\\Users\\link\\Desktop\\HttpServerCSharp\\crack.csproj",
+        "packagesPath": "C:\\Users\\link\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\link\\Desktop\\HttpServerCSharp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/link/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\link\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +44,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/234/sdk/6.0.419/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
         }
       }
     }
